@@ -1,17 +1,16 @@
-import {BrowserRouter} from 'react-router-dom';
+import {HashRouter} from 'react-router-dom';
 import styled from 'styled-components';
-import Modal from './components/modal/Modal';
 import Routers from './routs/Routers';
 import SideBars from './sidebar/SideBar';
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
     <Div>
       <SideBars/>
       <Routers/>
     </Div>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 

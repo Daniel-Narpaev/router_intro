@@ -13,7 +13,7 @@ import Schedule from "../sidebar/Schedule";
 const Routers = () => {
   return (
     <Routes>
-      <Route path="/courses/" element={<Courses />}>
+      <Route path="/courses/materials" element={<Courses />}>
         <Route path="materials" element={<Materials />} />
 
         <Route path="materials/:id/details/" element={<MaterialsDetails />}>
